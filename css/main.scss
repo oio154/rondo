@@ -4,11 +4,15 @@ $frameRadius: 3px;
 
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
 
+// @import "../../fontawesome-free-5.11.2-web/scss/fontawesome.scss";
+// @import "../../fontawesome-free-5.11.2-web/scss/solid.scss";
+// @import "../../fontawesome-free-5.11.2-web/scss/brands.scss";
+  
 
 
 body, html{ height: 100%; border:0; padding:0; margin: 0; background: #4b2f02; 
     //overflow-y: scroll; //?????? scrollbar size prevention, but consider it
-    font-family: 'Roboto Condensed', sans-serif;
+   // font-family: 'Roboto Condensed', sans-serif;
     font-size: 12px;
 }
 

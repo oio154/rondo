@@ -1,9 +1,11 @@
-<!DOCTYPE html>
+<?php session_start(); ?><!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="../../fontawesome-free-5.11.2-web/css/all.css" rel="stylesheet">
+  
     <link rel="stylesheet" href="css/main.css">
     <title>Document</title>
 </head>
@@ -14,14 +16,14 @@
         <div class="frame" id="frame-1"></div>
         <div class="frame" id="frame-2"></div>
         <div class="frame" id="frame-3"></div>
-        <div class="frame" id="frame-4"></div>
+        <div class="frame" id="frame-4"><i class="far fa-file-word"></i>dd</div>
 
 
 
 
 <script src="js/ajax.js"></script>
 <script>
-    ajaxGET("lorem.txt","frame-1");    
+   ajaxGET("lorem.txt","frame-1");    
     ajaxGET("get-test.php/?a=34");
 </script>
 
