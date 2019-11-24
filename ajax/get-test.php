@@ -1,11 +1,5 @@
 <?php session_start();
-?>
 
-
-
-<code><pre>
-    <?php
-        sleep(2);
+        sleep(.5);
         print_r($_GET);
-    ?>
-</pre></code>
+?>

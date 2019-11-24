@@ -11,7 +11,7 @@
     <div class='bg blur'></div>
     <div class="main-flex-container">
         <div class="frame" style="" id="debug"></div>
-        <div class="frame" style="" id="frame-1"></div>
+        <div class="frame" id="frame-1"></div>
         <div class="frame" id="frame-2"></div>
         <div class="frame" id="frame-3"></div>
         <div class="frame" id="frame-4"></div>
@@ -22,7 +22,7 @@
 <script src="js/ajax.js"></script>
 <script>
     ajaxGET("lorem.txt","frame-1");    
-    ajaxGET("get-test.php");    
+    ajaxGET("get-test.php/?a=34");
 </script>
 
 </body>
