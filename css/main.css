@@ -5,6 +5,7 @@ body, html {
   padding: 0;
   margin: 0;
   background: #4b2f02;
+  font-family: 'Roboto Condensed', sans-serif;
   font-size: 12px;
 }
 
@@ -71,5 +72,81 @@ div.blur2 {
     border: 0;
     margin: 0;
   }
+}
+
+.big-1 {
+  font-size: 6rem;
+}
+
+.hide {
+  opacity: 0;
+}
+
+nav {
+  background: white;
+  display: block;
+  margin-bottom: 5px;
+}
+
+nav a {
+  color: black;
+  line-height: 2rem;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0 1rem;
+  border-right: 1px solid #b9b9b9;
+  -webkit-transition: background .4s ease;
+  transition: background .4s ease;
+}
+
+nav a:hover {
+  background: #b465c7;
+}
+
+nav a.m-right {
+  border-right: 0;
+  border-left: 1px solid #b9b9b9;
+}
+
+nav .m-right {
+  float: right;
+}
+
+nav #save {
+  color: #b465c7;
+  -webkit-animation: blink;
+          animation: blink;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes blink {
+  0% {
+    color: #b9b9b9;
+  }
+  70% {
+    color: #b465c7;
+  }
+  100% {
+    color: red;
+  }
+}
+
+@keyframes blink {
+  0% {
+    color: #b9b9b9;
+  }
+  70% {
+    color: #b465c7;
+  }
+  100% {
+    color: red;
+  }
+}
+
+nav .fa-user {
+  color: green;
 }
 /*# sourceMappingURL=main.css.map */
